@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+}
+ 
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+    border-radius: 25px;
+   
+    
+}
+.result {
+    background-color: aqua;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-style: none;
+}
+button:hover{
+    border: none;
+    
+}
